@@ -11,7 +11,7 @@ async function startServer() {
     typeDefs,
     resolvers,
     cors: {
-      origin: 'https://blog-one-kappa-27.vercel.app/', // your frontend
+      origin: 'https://blog-one-kappa-27.vercel.app', // your frontend
       credentials: true,
     },
   });
