@@ -11,7 +11,7 @@ async function startServer() {
     typeDefs,
     resolvers,
     cors: {
-      origin: '*', // your frontend
+      origin: 'http://localhost:3000', // your frontend
       credentials: true,
     },
   });
